@@ -83,3 +83,4 @@ data_bersih <- data
 
 # Pesan akhir
 print("Persiapan data selesai. Variabel 'data_bersih' siap digunakan untuk analisis selanjutnya.")
+
