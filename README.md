@@ -83,7 +83,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Berdasarkan hasil uji korelasi yang telah saya lakukan, menunjukkan adanya hubungan yang sangat kuat dan bersifat positif antara dua variabel yang diuji. Angka ini mendekati nilai maksimum 1, yang berarti bahwa ketika nilai salah satu variabel meningkat, variabel lainnya juga cenderung meningkat secara hampir searah dan konsisten. Dengan tingkat korelasi yang sangat tinggi tersebut, dapat disimpulkan bahwa perubahan pada satu variabel memiliki keterkaitan yang erat dengan perubahan variabel lainnya, sehingga hubungan yang terbentuk bukan bersifat kebetulan, melainkan mencerminkan keterkaitan linear yang sangat kuat.
 - **Visualisasi (Scatter Plot):**
   - *Plot*
-  - ![alt text]
+  - ![alt text](scatterplot_Pendapatan_Tahunan_Miliar_IDR_vs_Biaya_Akuisisi_Pelanggan_Juta_IDR.png)
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
   - Berdasarkan scatter plot tersebut, plot menunjukkan hasil koefisien korelasi yang sangat tinggi, karena titik-titik data membentuk tren yang jelas dan bergerak searah mengikuti garis tren linear. Sebagian besar titik tersebar di sekitar garis naik, yang menunjukkan bahwa peningkatan pendapatan tahunan diikuti oleh peningkatan biaya akuisisi pelanggan. Keteraturan pola ini mencerminkan hubungan linear yang kuat dan positif antara kedua variabel, sehingga secara visual memperkuat temuan nilai korelasi r = 0,996 yang menunjukkan adanya keterkaitan yang sangat erat di antara keduanya.
 
@@ -108,6 +108,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
 
   - Berdasarkan seluruh rangkaian analisis yang telah saya lakukan, dapat saya simpulkan bahwa data pendapatan tahunan startup SaaS dalam dataset ini memiliki tingkat variasi yang tinggi dan tidak terdistribusi normal, yang menunjukkan adanya kesenjangan yang jelas antara startup berskala kecil dan besar. Hasil analisis statistik deskriptif memperlihatkan bahwa meskipun nilai rata-rata pendapatan tergolong cukup tinggi, sebagian besar startup masih berada pada tingkat pendapatan yang relatif rendah, sementara beberapa startup dengan pendapatan sangat tinggi memberikan pengaruh besar terhadap nilai rata-rata. Selain itu, analisis korelasi dan regresi menunjukkan adanya hubungan linear yang sangat kuat dan positif antara pendapatan tahunan dan biaya akuisisi pelanggan, yang menandakan bahwa pertumbuhan pendapatan umumnya diiringi dengan peningkatan biaya untuk memperoleh pelanggan. Wawasan paling penting dari analisis ini adalah bahwa pertumbuhan startup SaaS tidak hanya bergantung pada peningkatan pendapatan semata, tetapi juga menuntut investasi yang semakin besar dalam strategi akuisisi pelanggan, sehingga pengelolaan biaya dan efisiensi pemasaran menjadi faktor kunci dalam keberlanjutan bisnis.
+
 
 
 
