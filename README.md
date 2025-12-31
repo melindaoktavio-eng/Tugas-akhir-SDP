@@ -13,7 +13,7 @@
 
 Pada bagian ini, jelaskan secara singkat dataset yang Anda gunakan. Apa saja variabel di dalamnya? Apa tujuan dari analisis yang Anda lakukan?
 
-> Dataset yang digunakan adalah data_startup_saas.csv yang berisi informasi tentang startup berbasis SaaS dan data ini dapat digunakan untuk menganalisis kinerja startup, mengevaluasi efisiensi bisnis serta untuk menganalisis retensi pelanggan. Variabel kunci dalam dataset ini meliputi Pendapatan_Tahunan_Miliar_IDR, Biaya_Akuisisi_Pelanggan_Juta_IDR, Nilai_Pelanggan_Juta_IDR dan Tingkat_Churn_Persen. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR melalui analisis korelasi, serta memprediksi Biaya_Akuisisi_Pelanggan_Juta_IDR menggunakan Pendapatan_Tahunan_Miliar_IDR sebagai prediktor melalui analisis regresi.
+ - Dataset yang digunakan adalah data_startup_saas.csv yang berisi informasi tentang startup berbasis SaaS dan data ini dapat digunakan untuk menganalisis kinerja startup, mengevaluasi efisiensi bisnis serta untuk menganalisis retensi pelanggan. Variabel kunci dalam dataset ini meliputi Pendapatan_Tahunan_Miliar_IDR, Biaya_Akuisisi_Pelanggan_Juta_IDR, Nilai_Pelanggan_Juta_IDR dan Tingkat_Churn_Persen. Tujuan dari proyek ini adalah untuk memahami karakteristik data melalui statistik deskriptif, menguji hubungan antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR melalui analisis korelasi, serta memprediksi Biaya_Akuisisi_Pelanggan_Juta_IDR menggunakan Pendapatan_Tahunan_Miliar_IDR sebagai prediktor melalui analisis regresi.
 ---
 
 ## 3. Struktur Proyek
@@ -108,6 +108,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
 
   - Berdasarkan seluruh rangkaian analisis yang telah saya lakukan, dapat saya simpulkan bahwa data pendapatan tahunan startup SaaS dalam dataset ini memiliki tingkat variasi yang tinggi dan tidak terdistribusi normal, yang menunjukkan adanya kesenjangan yang jelas antara startup berskala kecil dan besar. Hasil analisis statistik deskriptif memperlihatkan bahwa meskipun nilai rata-rata pendapatan tergolong cukup tinggi, sebagian besar startup masih berada pada tingkat pendapatan yang relatif rendah, sementara beberapa startup dengan pendapatan sangat tinggi memberikan pengaruh besar terhadap nilai rata-rata. Selain itu, analisis korelasi dan regresi menunjukkan adanya hubungan linear yang sangat kuat dan positif antara pendapatan tahunan dan biaya akuisisi pelanggan, yang menandakan bahwa pertumbuhan pendapatan umumnya diiringi dengan peningkatan biaya untuk memperoleh pelanggan. Wawasan paling penting dari analisis ini adalah bahwa pertumbuhan startup SaaS tidak hanya bergantung pada peningkatan pendapatan semata, tetapi juga menuntut investasi yang semakin besar dalam strategi akuisisi pelanggan, sehingga pengelolaan biaya dan efisiensi pemasaran menjadi faktor kunci dalam keberlanjutan bisnis.
+
 
 
 
