@@ -82,5 +82,4 @@ print(colSums(is.na(data)))
 data_bersih <- data
 
 # Pesan akhir
-print("Nama kolom dalam data_bersih:")
-print(names(data_bersih))
+print("Persiapan data selesai. Variabel 'data_bersih' siap digunakan untuk analisis selanjutnya.")
