@@ -2,9 +2,9 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `[MELINDA OKTAVIO DINA PATRICIA]`
-- **NIM:** `[2515091143]`
-- **Program Studi:** `[SISTEM INFORMASI]`
+- **Nama:** `MELINDA OKTAVIO DINA PATRICIA`
+- **NIM:** `2515091143`
+- **Program Studi:** `SISTEM INFORMASI`
 - **Mata Kuliah:** Statistika dan Probabilitas
 
 ---
@@ -98,7 +98,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Berdasarkan evaluasi model regresi, Nilai R-squared sebesar 0,991 atau 99,1% menunjukkan bahwa model regresi yang digunakan mampu menjelaskan sekitar 99,1% variasi pada variabel dependen, yaitu Biaya Akuisisi Pelanggan. Hal ini berarti hampir seluruh perubahan biaya akuisisi pelanggan dapat diterangkan oleh variabel independen Pendapatan_Tahunan_Miliar_IDR dalam model tersebut. Dengan tingkat penjelasan yang sangat tinggi ini, model regresi dapat dikatakan memiliki kemampuan prediksi yang sangat baik, sementara sisanya sekitar 0,9% variasi dipengaruhi oleh faktor lain di luar model.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Plot*
-  - ![alt text](plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
+  - ![alt text](result)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
   - Garis regresi pada grafik merepresentasikan hubungan linear yang sangat kuat dan searah antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR, di mana kemiringan garis yang positif menunjukkan bahwa peningkatan pendapatan tahunan diikuti oleh peningkatan biaya akuisisi pelanggan. Posisi garis yang melewati dan mendekati sebagian besar titik data menandakan bahwa model mampu menangkap pola hubungan antar variabel dengan sangat baik, sehingga perubahan pada variabel independen dapat digunakan untuk memprediksi perubahan pada variabel dependen secara akurat. Selain itu, nilai R-squared yang sangat tinggi memperkuat bahwa garis regresi tersebut secara efektif menggambarkan keterkaitan antara kedua variabel dalam dataset ini.
 
@@ -108,6 +108,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
 
   - Berdasarkan seluruh rangkaian analisis yang telah saya lakukan, dapat saya simpulkan bahwa data pendapatan tahunan startup SaaS dalam dataset ini memiliki tingkat variasi yang tinggi dan tidak terdistribusi normal, yang menunjukkan adanya kesenjangan yang jelas antara startup berskala kecil dan besar. Hasil analisis statistik deskriptif memperlihatkan bahwa meskipun nilai rata-rata pendapatan tergolong cukup tinggi, sebagian besar startup masih berada pada tingkat pendapatan yang relatif rendah, sementara beberapa startup dengan pendapatan sangat tinggi memberikan pengaruh besar terhadap nilai rata-rata. Selain itu, analisis korelasi dan regresi menunjukkan adanya hubungan linear yang sangat kuat dan positif antara pendapatan tahunan dan biaya akuisisi pelanggan, yang menandakan bahwa pertumbuhan pendapatan umumnya diiringi dengan peningkatan biaya untuk memperoleh pelanggan. Wawasan paling penting dari analisis ini adalah bahwa pertumbuhan startup SaaS tidak hanya bergantung pada peningkatan pendapatan semata, tetapi juga menuntut investasi yang semakin besar dalam strategi akuisisi pelanggan, sehingga pengelolaan biaya dan efisiensi pemasaran menjadi faktor kunci dalam keberlanjutan bisnis.
+
 
 
 
