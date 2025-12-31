@@ -61,7 +61,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     Pendapatan tahunan startup SaaS dalam dataset ini menunjukkan variasi yang cukup signifikan antar perusahaan. Besarnya nilai standar deviasi, yaitu 19,79 Miliar Rupiah, yang mengindikasikan bahwa pendapatan masing-masing startup tersebar jauh dari nilai rata-rata. Perbedaan ini semakin terlihat dari rentang pendapatan yang sangat lebar, mulai dari 1,00 miliar rupiah hingga mencapai 66,89 miliar rupiah, yang mencerminkan adanya kesenjangan skala bisnis antar startup. Jika dilihat dari pembagian kuartil, sebagian startup masih berada pada kelompok pendapatan rendah, sementara kelompok lainnya telah mencapai tingkat pendapatan yang jauh lebih tinggi, sehingga distribusi pendapatan dalam dataset ini dapat dikatakan tidak merata dan cenderung menyebar luas.
 - **Visualisasi (Histogram/Boxplot):**
   - *Plot*
-  - ![alt text](result/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
+  - ![alt text](results/histogram_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Berdasarkan gambar histogram Pendapatan_Tahunan_Miliar_IDR, distribusi pendapatan tahunan startup SaaS terlihat menyebar cukup merata di berbagai rentang nilai, tanpa adanya konsentrasi yang sangat dominan pada satu titik tertentu. Garis rata-rata yang berada di sekitar tengah distribusi menunjukkan bahwa nilai mean cukup merepresentasikan pusat data, meskipun tetap terdapat variasi pendapatan yang lebar antar startup. Selain itu, sebaran batang histogram yang relatif seimbang dari pendapatan rendah hingga tinggi mengindikasikan bahwa ekosistem startup dalam dataset ini terdiri dari kombinasi startup skala kecil, menengah, hingga besar. Pola distribusi seperti ini mencerminkan adanya keberagaman tingkat kematangan bisnis, di mana tidak hanya didominasi oleh satu kelompok pendapatan tertentu, tetapi terbagi di berbagai level perkembangan usaha.
 
@@ -72,7 +72,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Hasil pengujian normalitas menggunakan metode Shapiro–Wilk pada variabel Pendapatan_Tahunan_Miliar_IDR menghasilkan p-value sebesar 1,497 × 10⁻¹⁴, yang nilainya jauh berada di bawah batas signifikansi 0,05. Hal ini mengindikasikan bahwa distribusi data pendapatan tidak terdistribusi normal, sehingga asumsi normalitas tidak terpenuhi dan hipotesis nol dapat ditolak. Oleh karena itu, dalam melakukan analisis lanjutan, penggunaan metode statistik yang bergantung pada asumsi normalitas perlu dipertimbangkan kembali, dengan alternatif seperti penerapan transformasi data atau pemilihan pendekatan non-parametrik agar kesimpulan yang diperoleh tetap akurat dan dapat dipercaya.
 - **Plot Q-Q:**
   - *Plot*
-  - ![alt text](qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
+  - ![alt text](results/qqplot_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Berdasarkan Q–Q plot uji normalitas pada variabel Pendapatan_Tahunan_Miliar_IDR , titik-titik data tidak sepenuhnya mengikuti garis lurus acuan, melainkan menunjukkan pola melengkung dan penyimpangan yang cukup jelas, terutama pada bagian ekor distribusi. Penyimpangan ini menandakan bahwa distribusi pendapatan tahunan startup tidak sesuai dengan distribusi normal, karena jika data berdistribusi normal maka titik-titik akan cenderung berada di sekitar garis lurus. Dengan demikian, pola pada Q–Q plot ini memperkuat hasil uji normalitas sebelumnya yang menyatakan bahwa data pendapatan tidak berdistribusi normal dan memiliki karakteristik sebaran yang tidak simetris atau mengandung nilai ekstrem.
 
@@ -98,7 +98,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Berdasarkan evaluasi model regresi, Nilai R-squared sebesar 0,991 atau 99,1% menunjukkan bahwa model regresi yang digunakan mampu menjelaskan sekitar 99,1% variasi pada variabel dependen, yaitu Biaya Akuisisi Pelanggan. Hal ini berarti hampir seluruh perubahan biaya akuisisi pelanggan dapat diterangkan oleh variabel independen Pendapatan_Tahunan_Miliar_IDR dalam model tersebut. Dengan tingkat penjelasan yang sangat tinggi ini, model regresi dapat dikatakan memiliki kemampuan prediksi yang sangat baik, sementara sisanya sekitar 0,9% variasi dipengaruhi oleh faktor lain di luar model.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Plot*
-  - ![alt text](results)
+  - ![alt text](results/plot_regresi_Biaya_Akuisisi_Pelanggan_Juta_IDR_vs_Pendapatan_Tahunan_Miliar_IDR.png)
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
   - Garis regresi pada grafik merepresentasikan hubungan linear yang sangat kuat dan searah antara Pendapatan_Tahunan_Miliar_IDR dan Biaya_Akuisisi_Pelanggan_Juta_IDR, di mana kemiringan garis yang positif menunjukkan bahwa peningkatan pendapatan tahunan diikuti oleh peningkatan biaya akuisisi pelanggan. Posisi garis yang melewati dan mendekati sebagian besar titik data menandakan bahwa model mampu menangkap pola hubungan antar variabel dengan sangat baik, sehingga perubahan pada variabel independen dapat digunakan untuk memprediksi perubahan pada variabel dependen secara akurat. Selain itu, nilai R-squared yang sangat tinggi memperkuat bahwa garis regresi tersebut secara efektif menggambarkan keterkaitan antara kedua variabel dalam dataset ini.
 
@@ -108,6 +108,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
 
   - Berdasarkan seluruh rangkaian analisis yang telah saya lakukan, dapat saya simpulkan bahwa data pendapatan tahunan startup SaaS dalam dataset ini memiliki tingkat variasi yang tinggi dan tidak terdistribusi normal, yang menunjukkan adanya kesenjangan yang jelas antara startup berskala kecil dan besar. Hasil analisis statistik deskriptif memperlihatkan bahwa meskipun nilai rata-rata pendapatan tergolong cukup tinggi, sebagian besar startup masih berada pada tingkat pendapatan yang relatif rendah, sementara beberapa startup dengan pendapatan sangat tinggi memberikan pengaruh besar terhadap nilai rata-rata. Selain itu, analisis korelasi dan regresi menunjukkan adanya hubungan linear yang sangat kuat dan positif antara pendapatan tahunan dan biaya akuisisi pelanggan, yang menandakan bahwa pertumbuhan pendapatan umumnya diiringi dengan peningkatan biaya untuk memperoleh pelanggan. Wawasan paling penting dari analisis ini adalah bahwa pertumbuhan startup SaaS tidak hanya bergantung pada peningkatan pendapatan semata, tetapi juga menuntut investasi yang semakin besar dalam strategi akuisisi pelanggan, sehingga pengelolaan biaya dan efisiensi pemasaran menjadi faktor kunci dalam keberlanjutan bisnis.
+
 
 
 
